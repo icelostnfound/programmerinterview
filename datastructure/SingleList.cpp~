@@ -1,10 +1,6 @@
 /******************************************************************************************
  * Data Structures in C++
-<<<<<<< HEAD
- * µ¥Á´±íµÄ½¨Á¢/²â³¤/´òÓ¡
-=======
  * å•é“¾è¡¨çš„å»ºç«‹/æµ‹é•¿/æ‰“å°
->>>>>>> 9262674eac2ce11826cd46ac5b0fc9983feb0ffb
  ******************************************************************************************/
 #include<iostream>
 #include<stdio.h>
@@ -15,11 +11,7 @@ typedef struct student{
     int data;
     struct student *next;
 }node;
-<<<<<<< HEAD
-//½¨±í
-=======
 //å»ºè¡¨
->>>>>>> 9262674eac2ce11826cd46ac5b0fc9983feb0ffb
 node *creat()
 {
     node *head ,*p,*s;
@@ -47,11 +39,7 @@ node *creat()
     printf("\n yyy %d",head->data);
     return head;
 }
-<<<<<<< HEAD
-//²â³¤
-=======
 //æµ‹é•¿
->>>>>>> 9262674eac2ce11826cd46ac5b0fc9983feb0ffb
 int length(node *head)
 {
     int n=0;
@@ -64,11 +52,7 @@ int length(node *head)
     }
     return n;
 }
-<<<<<<< HEAD
-//´òÓ¡
-=======
 //æ‰“å°
->>>>>>> 9262674eac2ce11826cd46ac5b0fc9983feb0ffb
 void print(node *head)
 {
     node *p;int n;
@@ -81,11 +65,7 @@ void print(node *head)
         p=p->next;
     }
 }
-<<<<<<< HEAD
-//É¾³ý
-=======
 //åˆ é™¤
->>>>>>> 9262674eac2ce11826cd46ac5b0fc9983feb0ffb
 node* delete(node* head,int num)
 {
     node *p1,*p2;
@@ -114,11 +94,7 @@ node* delete(node* head,int num)
     }
     return head;
 }
-<<<<<<< HEAD
-//²åÈë
-=======
 //æ’å…¥
->>>>>>> 9262674eac2ce11826cd46ac5b0fc9983feb0ffb
 node* insert(node *head,int num)
 {
      node *p0,*p1,p2;
@@ -149,11 +125,7 @@ node* insert(node *head,int num)
      }
      return head;
 }
-<<<<<<< HEAD
-//ÅÅÐò
-=======
 //æŽ’åº
->>>>>>> 9262674eac2ce11826cd46ac5b0fc9983feb0ffb
 node sort(node* head)
 {
     node *p,*p2,*p3;
@@ -163,11 +135,7 @@ node sort(node* head)
     if(head==NULL||head->next==NULL)
         return head;
     p=head;
-<<<<<<< HEAD
-    //Ã°ÅÝÅÅÐò
-=======
     //å†’æ³¡æŽ’åº
->>>>>>> 9262674eac2ce11826cd46ac5b0fc9983feb0ffb
     for(int j=1;j<n;++j)
     {
         p=head;
@@ -184,11 +152,7 @@ node sort(node* head)
     }
     return head;
 }
-<<<<<<< HEAD
-//ÄæÖÃ
-=======
 //é€†ç½®
->>>>>>> 9262674eac2ce11826cd46ac5b0fc9983feb0ffb
 node *reverse(node* head)
 {
     node *p1,*p2,*p3;
@@ -213,7 +177,4 @@ int  main()
 	print(lis);
 	return 0;
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> 9262674eac2ce11826cd46ac5b0fc9983feb0ffb
