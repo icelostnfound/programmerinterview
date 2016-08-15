@@ -25,3 +25,16 @@ void PrintListReversingly(ListNode* pHead)
 		nodes.pop();
 	}
 }
+//ตÝน้
+void PrintListReversingly_Recursively(ListNode* pHead)
+{
+	if (pHead!=NULL)
+	{
+		if (pHead->m_pNext!=NULL)
+		{
+			PrintListReversingly_Recursively(pHead->m_pNext);
+		}
+		cout << pNode->m_nKey << '\t';
+	}
+
+}
