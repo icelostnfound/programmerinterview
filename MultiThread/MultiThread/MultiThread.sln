@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MultiThread", "MultiThread\MultiThread.vcxproj", "{990E86D1-076D-4BC4-820D-C936E2FD52D2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C11Thread", "C11Thread\C11Thread.vcxproj", "{80F1F8B3-70D8-4E03-93D9-3FA0BB0C9E82}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{990E86D1-076D-4BC4-820D-C936E2FD52D2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{990E86D1-076D-4BC4-820D-C936E2FD52D2}.Debug|Win32.Build.0 = Debug|Win32
+		{990E86D1-076D-4BC4-820D-C936E2FD52D2}.Release|Win32.ActiveCfg = Release|Win32
+		{990E86D1-076D-4BC4-820D-C936E2FD52D2}.Release|Win32.Build.0 = Release|Win32
+		{80F1F8B3-70D8-4E03-93D9-3FA0BB0C9E82}.Debug|Win32.ActiveCfg = Debug|Win32
+		{80F1F8B3-70D8-4E03-93D9-3FA0BB0C9E82}.Debug|Win32.Build.0 = Debug|Win32
+		{80F1F8B3-70D8-4E03-93D9-3FA0BB0C9E82}.Release|Win32.ActiveCfg = Release|Win32
+		{80F1F8B3-70D8-4E03-93D9-3FA0BB0C9E82}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
